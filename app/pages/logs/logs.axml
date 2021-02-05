@@ -1,0 +1,10 @@
+<view class="page">
+  <view class="title">
+    <text class="text">{{title}}</text>
+  </view>
+  <view class="title">
+    <text class="text"> {{first}} + {{second}} = {{value}}</text>
+  </view>
+  <button onTap="changeRange">点我试一试</button>
+  <button onTap="changeText">换一个</button>
+</view>

@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "defaultTitle": "测试小程序",
+    "titleBarColor":"#F5F5F",
+    "supportColorScheme":"dark"
+  },
+  "tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "icon": "image/icon_component.png",
+        "activeIcon": "image/icon_component_HL.png",
+        "pagePath": "pages/index/index",
+        "name": "首页"
+      },
+      {
+        "icon": "image/icon_biz.png",
+        "activeIcon": "image/icon_biz_HL.png",
+        "pagePath": "pages/logs/logs",
+        "name": "日志"
+      }
+    ]
+  }
+}
